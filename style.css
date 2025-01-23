@@ -53,6 +53,7 @@ header a {
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
+    padding-bottom: 20px;
 
 }
 
@@ -129,12 +130,11 @@ main {
     width: 175px;
 }
 
+.img-subtext p {
+    margin-top: 10px;
+}
+ 
 .img-subtext div {
-    border-radius: 35px 35px 35px 35px;
-    -webkit-border-radius: 35px 35px 35px 35px;
-    -moz-border-radius: 35px 35px 35px 35px;
-    border: 5px solid #50a9ff;
-    box-sizing: border-box;
     height: 175px;
     width: 175px;
 }
@@ -142,6 +142,10 @@ main {
 .img-subtext img {
     height: 175px;
     width: 175px;
+    border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    object-fit: cover;
 }
 
 .main-center {
