@@ -1,0 +1,90 @@
+* {
+    font-family: "Roboto", serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+header,
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header {
+    display: flex;
+    padding: 14px 15%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+header a {
+    color: #F9FAF8;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo img {
+    height: auto;
+    width: 16%;
+}
+
+.hero {
+    display: flex;
+    padding: 5% 15%;
+    gap: 3%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.hero p {
+    color: #e5e7ebc3;
+}
+
+.hero-image {
+    height: auto;
+    width: 100%;
+    display:block;
+    position:relative;
+    padding-left: 10px;
+    
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image:before {
+        display:block;
+        content:'';
+        position:absolute;
+        width:100%;
+        height:100%;
+        -moz-box-shadow:inset 0px 0px 10px 10px #1F2937;
+        -webkit-box-shadow:inset 0px 0px 10px 10px #1F2937;
+        box-shadow:inset 0px 0px 10px 10px #1F2937;
+    }
+
+.sign-up {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 8px 20px;
+    border: none;
+    margin: 10px 0 10px 0;
+}
